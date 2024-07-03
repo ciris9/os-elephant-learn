@@ -89,3 +89,7 @@ section MBR vstart=0x7c00
     db 0x55,0xaa
     
 ```
+
+将其复制到bochs的启动磁盘的首块后，再启动bochs即可观察到悬浮的1MBR绿色字符，并且陷入阻塞。
+
+![alt text](image-2.png)
